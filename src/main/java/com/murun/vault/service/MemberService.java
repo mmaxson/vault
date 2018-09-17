@@ -30,4 +30,11 @@ public class MemberService {
     //    logger.info("getSitesByMemberId (pageRequest) " + pageRequest.getPageNumber() + ':' + pageRequest.getPageSize() );
         return memberRepository.getOne(memberId).getSites();
     }
+
+
+
+    public Set<Site> getMemberSitesFilterByUserId(Integer memberId, String userId) {
+        //    logger.info("getSitesByMemberId (pageRequest) " + pageRequest.getPageNumber() + ':' + pageRequest.getPageSize() );
+        return memberRepository.getMemberSitesFilterByUserId(memberId, userId);
+    }
 }

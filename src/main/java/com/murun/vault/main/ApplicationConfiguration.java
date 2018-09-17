@@ -19,8 +19,6 @@ import java.util.Arrays;
 public class ApplicationConfiguration  {
 
 
-
-
     @Resource
     private ApplicationProperties applicationProperties;
 
