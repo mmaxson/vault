@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.murun.vault.main.ApplicationProperties",
+      "name": "",
+      "type": "com.murun.vault.main.ApplicationProperties"
+    },
+    {
+      "sourceType": "com.murun.vault.main.ApplicationProperties",
+      "name": "hibernate",
+      "sourceMethod": "getHibernate()",
+      "type": "com.murun.vault.main.ApplicationProperties$Hibernate"
+    },
+    {
+      "sourceType": "com.murun.vault.main.ApplicationProperties",
+      "name": "vault",
+      "sourceMethod": "getVault()",
+      "type": "com.murun.vault.main.ApplicationProperties$Vault"
+    }
+  ],
+  "properties": []
+}
